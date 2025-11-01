@@ -1,0 +1,45 @@
+# SecretHawk Configuration
+
+# Target
+target: example.com
+
+# Reconnaissance
+reconnaissance:
+  use_subfinder: true
+  use_amass: false
+  max_subdomains: 100
+
+# Discovery
+discovery:
+  timeout: 10
+  max_workers: 20
+  follow_redirects: true
+
+# Directories
+directories:
+  common_paths: true
+  api_endpoints: true
+
+# URL Collection
+urls:
+  use_gau: true
+  use_wayback: true
+  use_katana: true
+  max_urls: 300
+
+# Crawling
+crawling:
+  max_pages: 200
+  timeout: 10
+  verify_ssl: false
+
+# Detection
+detection:
+  patterns: all
+  confidence_threshold: low
+  remove_duplicates: true
+
+# Output
+output:
+  json_report: true
+  verbose: true
