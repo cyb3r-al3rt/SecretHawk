@@ -128,7 +128,7 @@ SecretHawk
 
 ## Author
 
-cyb3r-al3rt (Muhammad Ismaeel Shareef S S)
+cyb3r-al3rt (kernelpanic)
 - GitHub: @cyb3r-al3rt
 - LinkedIn: in/cyb3r-ssrf
 
